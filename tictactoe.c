@@ -64,6 +64,8 @@ void main()
         player++;
     }
 }
+
+// function to print the board state
 void printboard()
 {
     printf("\n\n");
@@ -78,6 +80,8 @@ void printboard()
     printf("  %c  |  %c  |  %c  \n", board[7], board[8], board[9]);
     printf("     |     |     ");
 }
+
+// function to check the winner
 int checkWinner()
 {
     if (board[1] == board[2] && board[2] == board[3])
